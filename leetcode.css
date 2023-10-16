@@ -1,0 +1,155 @@
+
+.left-header{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.header{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding-bottom:6px;
+    border-bottom-style:solid;
+    border-width:1px;
+    border-color:rgb(184, 184, 184);
+}
+.icons{
+    width:20px;
+    height:20px;
+}
+.word,.Premium{
+    margin-left:15px;
+    margin-right:15px;
+}
+.icons{
+    margin-left:10px;
+    margin-right:10px;
+}
+.icons-profile{
+    width:20px;
+    height:20px;
+    border-radius:10px;
+    margin-left:10px;
+    margin-right:10px;
+}
+.Premium{
+    color:#FFA116;
+    background-color:#FFA1161F;
+    border:none;
+    padding-top:6px;
+    padding-bottom:6px;
+    padding-left:12px;
+    padding-right:12px;
+    vertical-align:top;
+    border-radius:6px;
+}
+.second-header-content{
+    text-align:center;
+    border-style:solid;
+    border-width:1px;
+    padding-top:15px;
+    padding-bottom:15px;
+    margin-left:25px;
+    margin-right:25px;
+    background-color:#fcf8e3;
+    border-color:#faebcc;
+    border-radius:5px;
+}
+span{
+    color:blue;
+}
+.trophy{
+    width:25px;
+    height:25px;
+    margin-top:4px;
+}
+.para{
+    margin-top:0;
+    margin-bottom:5px;
+    margin-left:10px;
+}
+.content{
+    display:grid;
+    grid-template-columns: 30px 1fr;
+    width:600px;
+    vertical-align:top;
+    margin-left:100px;
+    margin-bottom:50px;
+    border-bottom-style:solid;
+    border-width:1px;
+    border-color:rgb(184, 184, 184);
+
+}
+.main-para{
+    margin-left:10px;
+}
+.sidebar{
+    position:absolute;
+    top:120px;
+    right:120px;
+    bottom:0;
+    width:400px;
+    border-left-style: solid;
+    border-width:1px;
+    border-color:rgb(184, 184, 184);
+    height: 100%;
+}
+.sidebar-img{
+    width:300px;
+    margin-left:20px;
+    margin-bottom:15px;
+    border-radius:10px;
+    cursor:pointer;
+}
+.right-header .icons{
+    width:21px;
+    height:21px;
+}
+.grid-sidebar{
+    display:grid;
+    grid-template-columns:180px 1fr;
+    margin-left:25px;
+    border-bottom-style:solid;
+    border-width:1px;
+    border-color:rgb(184, 184, 184);
+    padding-bottom:20px;
+    width:300px;
+
+}
+.sidebar-trophy{
+    width:100px;
+    height:100px;
+    margin-top:16px;
+}
+.sidebar-para{
+    margin-top:0px;
+    cursor:pointer;
+}
+.contest-button{
+   padding-top:6px;
+   padding-bottom:6px;
+   padding-left:10px;
+   padding-right:10px;
+   background-color:white;
+   border-radius:4px;
+   border-style:solid;
+   border-width:1px;
+   border-color:rgb(184, 184, 184);
+   font-weight:bold;
+}
+.word{
+    color:rgb(130, 130, 130);
+}
+.word:hover{
+    color:black;
+}
+.contest-button:hover{
+   background-color:rgb(207, 207, 207);
+}
+.right-header .icons{
+    opacity:0.5;
+}
+.right-header .icons:hover{
+    background-color:rgb(207, 207, 207);
+    border-radius:4px;
+}
